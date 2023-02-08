@@ -9,8 +9,14 @@ h1{
     margin-left: 120px;
     
 }
-
 img{
-    width: 100px;
+    width: 300px;
     padding: 25px 300px 25px 300px;
+    border: black 1px solid;
+    border-radius: 300%;
+}
+ul{
+    margin-bottom: 15px;
+    margin-top: 15px;
+padding-top: 15px;
 }
