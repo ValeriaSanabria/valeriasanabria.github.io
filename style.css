@@ -9,14 +9,16 @@ h1{
     margin-left: 120px;
     
 }
-img{
-    width: 300px;
-    padding: 25px 300px 25px 300px;
+.card-img-top{
+    /* padding: 25px 300px 25px 300px; */
     border: black 1px solid;
-    border-radius: 300%;
+    width: 350px;
+    border-radius: 250px;
+    align-items: center;
+    margin: 20px 0px 0px 270px;
 }
 ul{
     margin-bottom: 15px;
     margin-top: 15px;
-padding-top: 15px;
+    padding-top: 15px;
 }
