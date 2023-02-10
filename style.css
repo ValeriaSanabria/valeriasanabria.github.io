@@ -1,24 +1,28 @@
-*{
+body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, rgb(91, 102, 95) , yellow);
+
 }
 h1{
     text-align: center;
 }
 #card1{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 120px;
     
 }
 .card-img-top{
     /* padding: 25px 300px 25px 300px; */
     border: black 1px solid;
-    width: 350px;
+    width: 150px;
     border-radius: 250px;
-    align-items: center;
-    margin: 20px 0px 0px 270px;
+    margin: 20px 0px 0px 370px;
 }
 ul{
     margin-bottom: 15px;
     margin-top: 15px;
     padding-top: 15px;
+}
+.card{
+    background-color: white;
 }
