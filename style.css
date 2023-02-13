@@ -1,6 +1,6 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: linear-gradient(to right, rgb(91, 102, 95) , yellow);
+    background-image: linear-gradient(to right, #eeaeca , #94bbe9);
 
 }
 h1{
@@ -25,4 +25,7 @@ ul{
 }
 .card{
     background-color: white;
+}
+.card-body{
+    width: 500px;
 }
