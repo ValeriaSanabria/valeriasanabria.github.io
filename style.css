@@ -18,6 +18,14 @@ h1{
     border-radius: 250px;
     margin: 20px 0px 0px 370px;
 }
+img:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition: 1s;
+}
+img{
+    overflow:hidden;
+}
+
 button{
     margin: 5px;
 }
@@ -26,6 +34,7 @@ button:hover{
     background-color: white;
     color: black;
     border-radius: 50%;
+    transition: 0.5s;
 }
 ul{
     margin-bottom: 15px;
