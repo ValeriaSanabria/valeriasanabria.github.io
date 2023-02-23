@@ -13,14 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
-<header>
-    <h1>Bienvenidos a mi Curriculum</h1>
-</header>
-
 <body>
     <div class="container">
+        <div class="title">Bienvenidos a mi curriculum</div>
         <div class="grid text-center">
-            <div id="card1" class="card" style="width: 80%;">
+            <div id="card1"  style="width: 80%;">
                 <img src="https://randomuser.me/api/portraits/women/75.jpg" class="card-img-top" alt="...">
                 <div class="card-body1">
                     <h2 class="card-title">Nicole Chavez</h2>
@@ -29,24 +26,21 @@
                 <div>
                 <ul class="list-group list-group-flush">
                     <p>
-                        <button class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-                            aria-expanded="false" aria-controls="multiCollapseExample1">Informacion Personal</button>
-                        <button class="btn btn-primary" type="button" data-bs-target="#multiCollapseExample2" onclick="mostrarMas()"
-                            aria-controls="multiCollapseExample2">Formacion Academica</button>
+                        <button class="btn btn-primary" type="button" aria-controls="multiCollapseExample1" onclick="mostrarMas()">Informacion Personal</button>
+                        <button class="btn btn-primary" type="button" data-bs-target="#multiCollapseExample2"
+                            aria-controls="multiCollapseExample2" onclick="mostrarMas()">Formacion Academica</button>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                            aria-controls="multiCollapseExample3">Formacion Complementaria</button>
+                            aria-controls="multiCollapseExample3" onclick="mostrarMas()">Formacion Complementaria</button>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#multiCollapseExample4" aria-expanded="false"
-                            aria-controls="multiCollapseExample4">Habilidades</button>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#multiCollapseExample5" aria-expanded="false"
-                            aria-controls="multiCollapseExample5">Experiencia Laboral</button>
+                            aria-controls="multiCollapseExample4" onclick="mostrarMas()">Habilidades</button>
+                        <button class="btn btn-primary" href="#" type="button" aria-expanded="false" onclick="mostrarMas()">Experiencia Laboral</button>
                             <button onclick="mostrarMenos()">Mostrar Menos</button>
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="collapse" id="multiCollapseExample1">
                                 <div class="card card-body">
                                     <ul>
                                         <li>Email: nicole.chavez@example.com</li>
@@ -64,7 +58,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="collapse" id="multiCollapseExample2">
                                 <div class="card card-body">
                                     <ul>
                                         <li> Titulo secundario en "Producción de Bienes y Servicios Articulado Con

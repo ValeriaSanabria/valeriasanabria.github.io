@@ -1,22 +1,37 @@
+header{
+    display: flex;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     background-image: linear-gradient(to right, #eeaeca , #94bbe9);
-
+    display: flex;
 }
 h1{
     text-align: center;
 }
 #card1{
+    align-items: center;
+    justify-content: center;
     margin-top: 25px;
     margin-left: 120px;
-    
+    background-color: #fff;
+    border-radius: 15px;
 }
 .card-img-top{
     /* padding: 25px 300px 25px 300px; */
+    margin-top: 25px;
     border: black 1px solid;
     width: 150px;
     border-radius: 250px;
-    margin: 20px 0px 0px 370px;
+    justify-content: center;
+    /* margin: 20px 0px 0px 370px; */
 }
 img:hover{
     -webkit-transform:scale(1.1);transform:scale(1.1);
@@ -24,6 +39,7 @@ img:hover{
 }
 img{
     overflow:hidden;
+    justify-content: center;
 }
 
 button{
@@ -52,4 +68,12 @@ ul{
     margin-left: 100px;
     margin-bottom: 10px;
     transition: 2s;
+}
+.card-title{
+    margin-top:25px;
+}
+
+.title{
+    font-family: Roboto, sans-serif;
+    color:#4e4b4b;
 }
