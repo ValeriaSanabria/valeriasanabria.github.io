@@ -7,9 +7,16 @@
 //     document.getElementById('multiCollapseExample1').style.display = 'block';
 // }
 
+// function mostrarMenos() {
+//     document.querySelectorAll('div.collapse').style.display = 'none';
+// }
+// function mostrarMas() {
+//     document.querySelectorAll('div.collapse').style.display = 'block';
+// }
+
 function mostrarMenos() {
-    document.querySelectorAll('div.collapse').style.display = 'none';
+    document.getElementById('principal').getElementsByClassName('prueba').style.display = 'none';
 }
 function mostrarMas() {
-    document.querySelectorAll('div.collapse').style.display = 'block';
+    document.getElementById('principal').getElementsByClassName('prueba').style.display = 'block';
 }
