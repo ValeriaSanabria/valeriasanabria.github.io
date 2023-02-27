@@ -20,3 +20,6 @@ function mostrarMenos() {
 function mostrarMas() {
     document.getElementById('principal').getElementsByClassName('prueba').style.display = 'block';
 }
+
+// intentar esta opcion de botones 
+// https://es.stackoverflow.com/questions/522880/problema-para-que-aplique-la-misma-funci%C3%B3n-a-varios-botones-un-js-a-un-html
