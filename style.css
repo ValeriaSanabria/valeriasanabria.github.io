@@ -77,8 +77,3 @@ ul{
     font-family: Roboto, sans-serif;
     color:#4e4b4b;
 }
-
-#multiCollapseExample1{
-    transition: opacity 0.35s;
-    opacity: 0;
-}

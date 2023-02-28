@@ -26,21 +26,20 @@
                 <div>
                 <ul class="list-group list-group-flush" id="principal">
                     <p>
-                        <button class="btn btn-primary" type="button" aria-controls="multiCollapseExample1" onclick="mostrarMas()">Informacion Personal</button>
-                        <button class="btn btn-primary" type="button" data-bs-target="#multiCollapseExample2"
-                            aria-controls="multiCollapseExample2" onclick="mostrarMas()">Formacion Academica</button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Informacion Personal</button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Formacion Academica</button>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                            aria-controls="multiCollapseExample3" onclick="mostrarMas()">Formacion Complementaria</button>
+                            aria-controls="multiCollapseExample3">Formacion Complementaria</button>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                             data-bs-target="#multiCollapseExample4" aria-expanded="false"
-                            aria-controls="multiCollapseExample4" onclick="mostrarMas()">Habilidades</button>
+                            aria-controls="multiCollapseExample4">Habilidades</button>
                         <button class="btn btn-primary" href="#" type="button" aria-expanded="false" onclick="mostrarMas()">Experiencia Laboral</button>
                             <button onclick="mostrarMenos()">Mostrar Menos</button>
                     </p>
                     <div class="row">
                         <div class="col">
-                            <div class="prueba" id="multiCollapseExample1">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
                                 <div class="card card-body">
                                     <ul>
                                         <li>Email: nicole.chavez@example.com</li>
@@ -58,7 +57,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <div class="prueba" id="multiCollapseExample2">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
                                 <div class="card card-body">
                                     <ul>
                                         <li> Titulo secundario en "Producción de Bienes y Servicios Articulado Con
@@ -79,7 +78,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="prueba" id="multiCollapseExample3">
+                        <div class="collapse multi-collapse" id="multiCollapseExample3">
                             <div class="card card-body">
                                 <ul>
                                     <li>Curso PBIP con prontuario y carnet habilitante por parte de Prefectura Naval
@@ -94,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="prueba" id="multiCollapseExample4">
+                        <div class="collapse multi-collapse" id="multiCollapseExample4">
                             <div class="card card-body">
                                 <ul>
                                     <li>
@@ -130,7 +129,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="prueba" id="multiCollapseExample5">
+                        <div class="collapse multi-collapse" id="multiCollapseExample5">
                             <div class="card card-body">
                                 <ul>
                                     <li>Operaria en línea de producción de ensamblado de celulares y computadoras
